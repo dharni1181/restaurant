@@ -1,0 +1,990 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/86f345a457.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+html{
+  scroll-behavior: smooth;
+}
+      body{
+        font-family: 'David Libre', serif;
+      }
+        .navbar-nav {
+          color: aliceblue;
+           
+            margin-left:220px;
+
+        }
+        .nav-item {
+          color: aliceblue;
+            margin:20px;
+        }
+
+        header{
+         background-image: url(photos/297-2975683_delicious-and-testy-pizza-fast-food-hd-hd.jpg);
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+
+         height:300px;
+}
+
+
+
+.subscribe{
+
+  font-family: 'Playfair Display',serif;
+    color: #b98d36;
+    border: 2px solid #b98d36;
+    border-radius: 0;
+    background: rgba(255,255,255,0);
+    margin:10px;
+    padding: 1.6rem 3rem 1.6rem 3rem;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    transition: transform .3s;
+}
+li{
+  list-style: none;
+}
+h1{
+  font-family: 'Playfair Display',serif;
+    font-size: 4.2rem;
+    line-height: 6.300000000000001rem;
+    line-height: 4rem;
+}
+h3{
+  font-family: 'Playfair Display',serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    color: #282b2e;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+
+.card1h{
+  font-family: 'Playfair Display',serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #282b2e;
+    margin: 1rem 0;
+    text-transform: uppercase;
+
+
+}
+#cardss{
+   -webkit-transition: .6s ease;
+    transition: .6s ease;
+}
+#cardss:hover{
+  
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#cardss:hover .card1h{
+  color:#b98d36;
+}
+p{
+  font-family: Raleway,sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    color: rgba(50,51,51,.8);
+    line-height: 2.6rem;
+}
+.card1p{
+  font-family: Raleway,sans-serif;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    color: rgba(50,51,51,.8);
+    line-height: 2.6rem;
+}
+
+
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.media{
+  
+  margin: 10px;
+}
+
+.restaurant-heading {
+            font-size: 3rem;
+            font-family: 'Playfair Display', serif;
+            margin-top: 10%;
+            margin-left: 20%;
+            font-weight: 900;
+            color: #282b2e;
+        }
+        
+          
+        .restaurant-img {
+          width: 100%;
+            height: 35rem;
+            
+        }
+
+        
+        blockquote {
+            overflow: hidden;
+            color: #282b2e;
+            margin: 1rem auto;
+            margin-left: 5%;
+            display: block;
+            padding: 1rem 1.5rem;
+            position: relative;
+            border-left: 0;
+            border-radius: 0;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+        }
+        
+        blockquote,
+        blockquote p {
+            font-size: 1.4rem;
+            line-height: 2.2000000000000004rem;
+            font-family: 'Playfair Display', serif;
+            font-weight: 100;
+        }
+
+.socialmedia1{
+  
+justify-content: center;
+  display:flex;
+  flex-direction: row;
+  margin-right: 35px;
+  
+}
+
+.subscribe {  
+  color: var(--color);
+  transition: 0.25s ease-in;
+
+  }
+
+.subscribe:hover{
+  box-shadow: inset 12.6em 0 0 0 #b98d36;;
+}
+
+.waviy {
+  margin-top: 100px;
+  margin-left: 100px;
+  position: relative;
+
+}
+.waviy span {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color:beige;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+#slides{
+  background-image:url(/photos/Folk+17\ cafe-1.jpg);
+  text-align: center;
+  padding: 7% 15%;
+
+}
+.client{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+.inputarea{
+  margin-right:10px;
+}
+.row{
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.col-sm-4{
+  
+    text-align: center;
+    padding:15px;
+   
+    align-items: center;
+}
+.col{
+
+  text-align: center;
+    padding:15px;
+   
+    align-items: center;
+
+}
+
+.social{
+  margin: 8px;
+}
+ .card-title{
+  margin-right: 17rem;
+   font-size: 2.2rem;
+  
+ }
+
+.card-text{
+  align-items: center;
+  margin-right: 15rem;
+  padding: 10px;
+  
+} 
+
+.container{
+  background-image:url(photos/Folk+17\ cafe.jpeg);
+}
+input{
+  background: rgba(255,255,255,.9);
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    width:20rem;
+    color: #b98d36;
+
+}
+.inputtext{
+  color:darkgrey
+}
+span{
+  color: #b98d36;
+    display: block;
+    margin-bottom: 1.5rem;
+    font-family: 'Playfair Display',serif;
+}
+
+footer{
+
+  padding-right:50px;
+  padding-left:50px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  
+  background-image:url(/photos/rod-long-WC7LeX79iEU-unsplash-2-2.jpg);
+  color: rgb(255, 255, 255);
+  font-family: 'Playfair Display',serif;
+}
+.listhead{
+    color:rgb(248, 244, 244);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 10px;
+}
+i{
+  color:#b98d36;
+}
+
+figure{
+  text-align: center;
+  overflow: hidden;
+}
+figcaption{
+ 
+  margin-bottom: -15px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #f6f6f6 100%);;
+}
+.single-menu{
+  overflow:hidden;
+  position: relative;
+}
+
+.single-menu:hover .menuimg{
+  transform: scale(1.5);
+
+}
+
+.single-menu:hover .menu{
+  
+margin-left: 20px;
+}
+
+.menu-info{
+ 
+  background-image: linear-gradient(to bottom,rgba(255,0,0,0),#1c1a1d);
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   
+}
+
+
+.menu{
+  transition: 0.3s all ease-in-out;
+  position: absolute;
+    bottom: 2.6rem;
+    left: 2.6rem;
+   
+}
+ .title {
+    font-family: Raleway,sans-serif;
+    color: #fff;
+    font-size: 4.2rem;
+   font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+ }
+
+ .subtitle {
+    font-family: 'Playfair Display',serif;
+    color: #b98d36;
+    font-size: 1.6rem;
+    line-height: 2.4000000000000004rem;
+    margin: 0;
+}
+.menuimg{
+  transition: 0.3s all ease-in-out;
+  width: 100%;
+ height: 100%;
+}
+.chefsingle-menu{
+  overflow: hidden;
+ 
+  position: relative;
+}
+.chefmenu-info{
+  
+  margin-top:100px;
+  margin-bottom: 100px;
+   text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.chefsingle-menu:hover .chefmenu {
+  transform: scale(1.2);
+}
+.chefsingle-menu:hover .chef {
+  transform: scale(1.2);
+}
+
+
+.chefmenu{
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+  width: 85%;
+  background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 100%);;
+  position: absolute;
+    bottom: 2.6rem;
+    left: 2.6rem;
+    opacity: 0.8;
+   
+}
+.chef{
+  transition: 0.3s all ease-in-out;
+  width:75%;
+
+}
+
+
+
+
+ .cheftitle {
+ 
+    color: rgb(8, 7, 7);
+    font-size: 2.2rem;
+   font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+ }
+
+ .chefsubtitle {
+    font-family: 'Playfair Display',serif;
+    color: #b98d36;
+    font-size: 1.6rem;
+    line-height: 2.4000000000000004rem;
+    margin: 0;
+}
+
+
+
+/* figcaption{
+  display: block;
+  position: absolute;
+    bottom: 15px;
+    margin: 0 5%;
+    padding: 0 2rem 2rem;
+    background: rgba(255,255,255,.9);
+    border-radius: 6px;
+    width: 90%;
+    transition-duration: .3s;
+    opacity: 1;
+
+}
+          */
+
+       
+    </style>
+  </head>
+  <body>
+   <header>
+
+        <nav class="navbar navbar-expand-lg sticky-top  text-secondary bg-opacity-25 bg-dark bg-gradient">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light " href="#">
+                <img src="photos/logo2.png" alt="Logo" width="200" height="80" class="d-inline-block align-text-top">
+               
+              </a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="homee.html">Home</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">About</a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="Specials.html">Specials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="Signup.html">SignUp/Login </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#menu-sec">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#chef-sec">Chefs</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                      <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider text-dark"></li>
+                      <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                 
+
+                  <li class="nav-item">
+                    <i class="fa-regular fa-cart-shopping"></i>
+                  </li>
+
+
+
+                  <li class="nav-item">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </li>
+                  
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+
+          <div class="waviy">
+            <span style="--i:1">A</span>
+            <span style="--i:2">B</span>
+            <span style="--i:3">O</span>
+            <span style="--i:4">U</span>
+            <span style="--i:5">T</span>
+            <span style="--i:6">U</span>
+            <span style="--i:7">S</span>
+            <span style="--i:7">.</span>
+           
+           </div>
+
+           
+           
+          </header>
+
+        
+          <div class="container-fluid">
+            <div class="card">
+                <img src="photos/spices-img.jpg" alt="restaurant-history" class="restaurant-img">
+                <div class="card-img-overlay card-inverse">
+                    <h3 class="text-stroke text-black restaurant-heading">Restaurant History</h3>
+                    <blockquote class="about">
+                        "Accumsan quis, vulputate sit amet sapien. Curabitur euismod vulputate nulla"<br> &nbsp non fringilla neque condimentum placerat.Integer egestas ullamcorper purus.
+                    </blockquote>
+                    
+                </div>
+            </div>
+    
+    
+        </div>
+
+
+<section data-aos="fade-up" 
+data-aos-duration="1500" 
+class="cards1 ">
+  <div class="row">
+    <div  data-aos="fade-up" 
+    data-aos-duration="1500" id="cardss" class="col-sm-4">
+      <a>
+        <img src="https://themearth.com/demo/html/restaura/view/assets/img/about-icon2.png">
+      </a>
+      <h3 class="card1h">Coffee Zone</h3>
+<p class="card1p">Beetroot water spinach okra water chestnut ricebean pea</p>
+     </div>
+
+     <div data-aos="fade-up" 
+     data-aos-duration="1500"  id="cardss" class="col-sm-4">
+      <a>
+        <img src="/photos/about-icon1.png">
+      </a>
+      <h3 class="card1h">DINNEr & DESSERT</h3>
+<p class="card1p">Beetroot water spinach okra water chestnut ricebean pea</p>
+     </div>
+
+
+     <div data-aos="fade-up" 
+     data-aos-duration="1500"  id="cardss" class="col-sm-4">
+      <a>
+        <img src="/photos/about-icon3.png">
+      </a>
+      <h3 class="card1h">Ice Shakes</h3>
+<p class="card1p">Beetroot water spinach okra water chestnut ricebean pea</p>
+     </div>
+
+  </div>
+
+  <div data-aos="fade-up" 
+  data-aos-duration="1500" class="row">
+    <div  data-aos="fade-up" 
+    data-aos-duration="1500"  id="cardss" class="col-sm-4">
+      <a>
+        <img src="/photos/about-icon4.png">
+      </a>
+      <h3 class="card1h">Fresh Foods</h3>
+<p class="card1p">Beetroot water spinach okra water chestnut ricebean pea</p>
+     </div>
+
+     <div data-aos="fade-up" 
+     data-aos-duration="1500"  id="cardss" class="col-sm-4">
+      <a>
+        <img src="/photos/about-icon5.png">
+      </a>
+      <h3 class="card1h">Breakfast</h3>
+<p class="card1p">Beetroot water spinach okra water chestnut ricebean pea</p>
+     </div>
+
+
+     <div  data-aos="fade-up" 
+     data-aos-duration="1500"  id="cardss" class="col-sm-4">
+      <a>
+        <img src="/photos/about-icon6.png">
+      </a>
+      <h3 class="card1h">Iced Drinks</h3>
+<p class="card1p">Beetroot water spinach okra water chestnut ricebean pea</p>
+     </div>
+
+  </div>
+
+</section>
+          
+
+<section data-aos="fade-left" 
+data-aos-duration="1500"  id="slides">
+  <h1 data-aos="fade-right" 
+  data-aos-duration="1500">What Clients Say</h1>
+
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+       
+    <p><span>This is the best Restaurant in the world</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex quod ratione earum nobis iure inventore, tenetur deserunt, amet autem veritatis neque</p>
+    <img class="client" src="/photos/chimpanzee.jpeg">
+    <div class="stars">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      
+    </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        
+    <p><span>This is the best Restaurant in the world</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex quod ratione earum nobis iure inventore, tenetur deserunt, amet autem veritatis neque, <p>
+    <img class="client" src="/photos/chimpanzee.jpeg">
+    <div class="stars">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      
+    </div>
+      </div>
+      <div class="carousel-item">
+       
+    <p><span>This is the best Restaurant in the world</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quod ratione earum nobis iure inventore, tenetur deserunt, amet autem veritatis neque, facere vitae recusandae vero deleniti nisi exercitationem magnam itaque?</p>
+    <img class="client" src="/photos/chimpanzee.jpeg">
+    <div class="stars">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      
+    </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section data-aos="fade-down" 
+data-aos-duration="1500" class="chefmenu-info" id="chef-sec">
+  <h1 data-aos="zoom-in" 
+  data-aos-duration="1500">Experienced Chefs</h1>
+  <p data-aos="zoom-out" 
+  data-aos-duration="1500"><span>Some Special Teachers From The Industry!
+  </span></p>
+
+  <div data-aos="fade-down" 
+  data-aos-duration="1500" class="row g-0">
+  <div data-aos="fade-down" 
+  data-aos-duration="1500" class=" chefsingle-menu col-xm-12 col-sm-12 col-md-6 col-lg-4 ">
+    <figure>
+      <img class="chef" src="https://themearth.com/demo/html/restaura/view/assets/img/team/team1.jpg">
+
+    </figure>
+    <div class="chefmenu">
+      <h3 class="cheftitle">The Chef</h3>
+      <h5 class="chefsubtitle">head of the chef</h5>
+      <ul class="socialmedia1">
+        <li class="social"><i class="fa-brands fa-facebook"></i></li>
+        <li class="social"><i class="fa-brands fa-twitter"></i></li>
+        <li class="social"><i class="fa-brands fa-instagram"></i></li>
+        <li class="social"><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+  </div>
+  <div data-aos="fade-down" 
+  data-aos-duration="1500"  class=" chefsingle-menu col-xm-12 col-sm-12 col-md-6 col-lg-4 ">
+    <figure>
+      <img class="chef" src="/photos/chef1.jpeg">
+
+    </figure>
+    <div class="chefmenu">
+      <h3 class="cheftitle">The Chef</h3>
+      <h5 class="chefsubtitle">head of the chef</h5>
+      <ul class="socialmedia1">
+        <li class="social"><i class="fa-brands fa-facebook"></i></li>
+        <li class="social"><i class="fa-brands fa-twitter"></i></li>
+        <li class="social"><i class="fa-brands fa-instagram"></i></li>
+        <li class="social"><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+  </div>
+  <div data-aos="fade-down" 
+  data-aos-duration="1500"  class="chefsingle-menu col-xm-12 col-sm-12 col-md-6 col-lg-4 ">
+    <figure>
+      <img class="chef" src="https://themearth.com/demo/html/restaura/view/assets/img/team/team1.jpg">
+
+    </figure>
+    <div class="chefmenu">
+      <h3 class="cheftitle">The Chef</h3>
+      <h5 class="chefsubtitle">head of the chef</h5>
+      <ul class="socialmedia1">
+        <li class="social"><i class="fa-brands fa-facebook"></i></li>
+        <li class="social"><i class="fa-brands fa-twitter"></i></li>
+        <li class="social"><i class="fa-brands fa-instagram"></i></li>
+        <li class="social"><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+
+  </div>
+  <div data-aos="fade-down" 
+  data-aos-duration="1000"  class=" chefsingle-menu col-xm-12 col-sm-12 col-md-6 col-lg-4">
+    <figure>
+      <img class="chef" src="/photos/chef1.jpeg">
+
+    </figure>
+    <div class="chefmenu">
+      <h3 class="cheftitle">The Chef</h3>
+      <h5 class="chefsubtitle">head of the chef</h5>
+      <ul class="socialmedia1">
+        <li class="social"><i class="fa-brands fa-facebook"></i></li>
+        <li class="social"><i class="fa-brands fa-twitter"></i></li>
+        <li class="social"><i class="fa-brands fa-instagram"></i></li>
+        <li class="social"><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+  </div>
+  <div data-aos="fade-down" 
+  data-aos-duration="1000"  class=" chefsingle-menu col-xm-12 col-sm-12 col-md-6 col-lg-4">
+    <figure>
+      <img class="chef" src="https://themearth.com/demo/html/restaura/view/assets/img/team/team1.jpg">
+
+    </figure>
+    <div class="chefmenu">
+      <h3 class="cheftitle">The Chef</h3>
+      <h5 class="chefsubtitle">head of the chef</h5>
+      <ul class="socialmedia1">
+        <li class="social"><i class="fa-brands fa-facebook"></i></li>
+        <li class="social"><i class="fa-brands fa-twitter"></i></li>
+        <li class="social"><i class="fa-brands fa-instagram"></i></li>
+        <li class="social"><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+
+  </div>
+  <div data-aos="fade-down" 
+  data-aos-duration="1000"  class="chefsingle-menu col-xm-12 col-sm-12 col-md-6 col-lg-4">
+    <figure>
+      <img class="chef" src="/photos/chef1.jpeg">
+
+    </figure>
+    <div class="chefmenu">
+      <h3 class="cheftitle">The Chef</h3>
+      <h5 class="chefsubtitle">head of the chef</h5>
+      <ul class="socialmedia1">
+        <li class="social"><i class="fa-brands fa-facebook"></i></li>
+        <li class="social"><i class="fa-brands fa-twitter"></i></li>
+        <li class="social"><i class="fa-brands fa-instagram"></i></li>
+        <li class="social"><i class="fa-brands fa-youtube"></i></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+   
+</div>
+
+  
+</section>
+
+
+
+
+
+<section  data-aos="zoom-in" 
+data-aos-duration="1500" class="menu-info" id="menu-sec">
+  
+
+  <h1>Offered Menu</h1>
+  <p><span>Some Trendy And Popular Courses Offerd</span></p>
+  <div class="row g-0 gx-0">
+  <div class="single-menu col-xm-12 col-sm-12 col-md-6  ">
+    <figure>
+      <img class="menuimg "src="https://themearth.com/demo/html/restaura/view/assets/img/menu/menu1.jpg">
+
+    </figure>
+    <div class="menu">
+      <h3 class="title">Pizza</h3>
+      <h5 class="subtitle">Itallian Food</h5>
+    </div>
+
+  </div>
+  <div class=" single-menu col-xm-12 col-sm-12 col-md-6  ">
+    <figure>
+      <img class="menuimg" src="https://themearth.com/demo/html/restaura/view/assets/img/menu/menu2.jpg">
+    </figure>
+    <div class="menu">
+      <h3 class="title">Soups</h3>
+      <h5 class="subtitle">Indian Food</h5>
+    </div>
+
+  </div>
+  <div class="single-menu col-xm-12 col-sm-12 col-md-6  ">
+    <figure>
+      <img class="menuimg" src="	https://themearth.com/demo/html/restaura/view/assets/img/menu/menu3.jpg
+">
+    </figure>
+    <div class="menu">
+      <h3 class="title">Kabab</h3>
+      <h5 class="subtitle">Itallian Food</h5>
+    </div>
+
+  </div>
+  <div class=" single-menu col-xm-12 col-sm-12 col-md-6 ">
+    <figure>
+      <img class="menuimg" src="	https://themearth.com/demo/html/restaura/view/assets/img/menu/menu4.jpg">
+    </figure>
+    <div class="menu">
+      <h3 class="title">Stack</h3>
+      <h5 class="subtitle">Itallian Food</h5>
+    </div>
+
+  </div>
+  <div class=" single-menu col-xm-12 col-sm-12 col-md-6 ">
+    <figure>
+      <img class="menuimg" src="https://themearth.com/demo/html/restaura/view/assets/img/menu/menu5.jpg
+      ">
+
+    </figure>
+    <div class="menu">
+      <h3 class="title">burger</h3>
+      <h5 class="subtitle">Itallian Food</h5>
+    </div>
+
+  </div>
+  <div class="single-menu col-xm-12 col-sm-12 col-md-6 ">
+    <figure>
+      <img class="menuimg" src="	https://themearth.com/demo/html/restaura/view/assets/img/menu/menu6.jpg">
+
+    </figure>
+    <div class="menu">
+      <h3 class="title">Subway</h3>
+      <h5 class="subtitle">Itallian Food</h5>
+    </div>
+
+  </div>
+ 
+  
+</div>
+
+  
+</section>
+
+
+
+
+<footer>
+
+  <div class="row ">
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+      <ul>
+        <li>
+        <img class="chef" src="/photos/logo2.png">
+
+        </li>
+        <li> <i class="fa-regular fa-location-pin"></i> 51 Francis Street, Darlinghurst
+          NSW 2010, United States</li>
+        <li><i class="fa-solid fa-phone"></i>+61 1900 654 368</li>
+        <li><i class="fa-solid fa-envelope"></i> office@educationplus.com
+        </li>
+        
+      </ul>
+
+    </div>
+
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+      <ul>
+        <li class="listhead">
+          OPENING TIME
+        </li>
+        <li> Saterday- Sunday</li>
+        <li>10:00 Am - 11:00 PM</li>
+        <li> Saterday- Sunday</li>
+        <li> 10:00 Am - 11:00 PM</li>
+        <li> Saterday- Sunday</li>
+        <li> 10:00 Am - 11:00 PM</li>
+      </ul>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+      <ul>
+        <li class="listhead">
+          THE MENU
+        </li>
+        <li><a>Speacial Items</a></li>
+        <li><a>Speacial Items</a></li>
+        <li><a>Speacial Items</a></li>
+        <li><a>Speacial Items</a></li>
+        <li><a>Speacial Items</a></li>
+       
+      </ul>
+
+
+
+    </div>
+
+    <div id="inputarea" class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+      <ul>
+      
+        <li class="inputtext">Don’t miss any updates all the astonishing offers we bring for you. </li>
+        <li><input type="email" placeholder="Eg.abc@gmail.com"></li>
+        <li> <button class="subscribe">Subscribe</button>
+        </li>
+        
+      </ul>
+
+    </div>
+
+    
+  </div>
+
+
+  <div class="row">
+    <div class="col">
+       <p>© 2017 Restaura is powered by themearth. The property of their owners.</p>
+    </div>
+
+    <div class="col">
+      <ul class="socialmedia">
+        <li class="media"><i class="fa-brands fa-facebook"></i></li>
+        <li class="media"><i class="fa-brands fa-twitter"></i></li>
+        <li class="media"><i class="fa-brands fa-instagram"></i></li>
+        <li class="media"><i class="fa-brands fa-youtube"></i></li>
+       
+      </ul>
+
+    </div>
+
+  </div>
+</footer>
+
+        
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

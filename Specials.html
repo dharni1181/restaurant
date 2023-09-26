@@ -1,0 +1,471 @@
+
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Specials</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@400;500;900&family=Ubuntu:wght@300;400;500;700&display=swap" 
+        rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@400;500;900&family=Ubuntu:wght@300;400;500;700&display=swap" 
+        rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/2e20e1d1f6.js" crossorigin="anonymous"></script> 
+    <!-- JavaScript Bundle with Popper --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/2e20e1d1f6.js" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style> 
+
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+    
+    width: 100%;
+
+}
+.navbar-nav {
+   
+          color: aliceblue;
+           
+            margin-left:530px;
+
+        }
+        .nav-item {
+
+          color: aliceblue;
+            margin:20px;
+        }
+
+
+.subscribe{
+
+font-family: 'Playfair Display',serif;
+  color: #b98d36;
+  border: 2px solid #b98d36;
+  border-radius: 0;
+  background: rgba(255,255,255,0);
+  margin:10px;
+  padding: 1.6rem 3rem 1.6rem 3rem;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  transition: transform .3s;
+}
+li{
+list-style: none;
+}
+
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+footer{
+
+padding-right:50px;
+padding-left:50px;
+padding-top: 20px;
+padding-bottom:20px;
+margin-top: 50px;
+background-image:url(/photos/rod-long-WC7LeX79iEU-unsplash-2-2.jpg);
+color: rgb(255, 255, 255);
+font-family: 'Playfair Display',serif;
+}
+.listhead{
+  color:rgb(248, 244, 244);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px;
+}
+i{
+color:#b98d36;
+}
+input{
+  background: rgba(255,255,255,.9);
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    width:20rem;
+    color: #b98d36;
+
+}
+.inputtext{
+  color:darkgrey
+}
+span{
+  color: #b98d36;
+    display: block;
+    margin-bottom: 1.5rem;
+    font-family: 'Playfair Display',serif;
+}
+        #top-section { 
+            background-image: url("https://themearth.com/demo/html/restaura/view/assets/img/banner61.jpg"); 
+            min-height: 400px; 
+            
+            background-attachment: fixed; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+        } 
+         
+        .specials-heading { 
+            color: #fff; 
+            font-family: 'Playfair Display', serif; 
+            font-weight: 900; 
+            font-size: 2.9rem; 
+            margin-top: 10%; 
+           
+        } 
+         
+        .home-heading { 
+            color: #fff; 
+            font-weight: 700; 
+            font-family: Raleway, sans-serif; 
+           
+        } 
+        /*.first-card { 
+            margin-left: 9%; 
+        }*/ 
+        /* .card-img-top-2 { 
+            margin-left: 4%; 
+        }*/ 
+         
+        .card-img-top { 
+            justify-content: center; 
+        } 
+         
+        #card-img-top-3 { 
+            height: 400px; 
+        } 
+         
+        .card-img-top { 
+            transition: all 0.4s ease-in-out; 
+        } 
+         
+        .card-img-top:hover { 
+            transform: scale(1.1, 1.1); 
+            cursor: pointer; 
+        } 
+         
+        .row { 
+            padding-left: 4%; 
+        } 
+    </style> 
+</head> 
+ 
+<body> 
+  
+    <!-- 
+    <div class="container-fluid"> 
+        <div class="row"> 
+            <div class="col-xs-12"> 
+                <div class="card"><img src="https://themearth.com/demo/html/restaura/view/assets/img/banner61.jpg" alt="background-img" id="top-img">
+
+Arjita, [21/09/22 1:59 AM]
+<div class="card-img-overlay card-inverse"> 
+                        <h3 class="specials-heading">Specials Combo</h3> 
+                    </div> 
+                </div> 
+ 
+ 
+                <h2 class="specials-heading">Specials Combo</h2> 
+            </div> 
+        </div> 
+ 
+    </div> --> 
+
+    <nav class="navbar navbar-expand-lg sticky-top  text-secondary bg-opacity-25 bg-light bg-gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light " href="#">
+            <img src="photos/logo2.png" alt="Logo" width="200" height="80" class="d-inline-block align-text-top">
+           
+          </a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="homee.html">Home</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="aboutus.html">About</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Specials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="Signup.html">SignUp/Login </a>
+              </li>
+             
+              
+
+             
+
+              <li class="nav-item">
+                <i class="fa-regular fa-cart-shopping"></i>
+              </li>
+
+
+
+              <li class="nav-item">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </li>
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <div id="top-section"> 
+        <div class="container-fluid"> 
+            <div class="card"> 
+ 
+                <div class="card-img-overlay card-inverse"> 
+                    <h3 class="specials-heading">Specials Combo</h3> 
+                    
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <br> 
+    <br> 
+    <div class="container-fluid"> 
+        <div class="row"> 
+            <div data-aos="fade-up" 
+            data-aos-duration="1500" class="col-xs-12 col-md-4"> 
+                <div class="first-card card" style="width:400px"> 
+                    <img class="card-img-top" src="https://themearth.com/demo/html/restaura/view/assets/img/speacial1.jpg" alt="Card image"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Extravaganza Pizza</h4> 
+ 
+                    </div> 
+                </div> 
+            </div> 
+            <div data-aos="fade-up" 
+            data-aos-duration="1500"   class="col-xs-12 col-md-4"> 
+                <div class="card-img-top-2 card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/chicken.jpg" alt="Card image"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Today's Special</h4> 
+ 
+                    </div> 
+                </div> 
+ 
+            </div> 
+            <div data-aos="fade-up" 
+            data-aos-duration="1500"  class="col-xs-12 col-md-4"> 
+                <div class="card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/Pizza-pie-tomatoes-oil_2880x1800.jpeg" alt="Card image" id="card-img-top-3"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Special Pizza</h4> 
+ 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <br> 
+        <br> 
+ 
+        <div class="row"> 
+            <div  data-aos="fade-up" 
+            data-aos-duration="1500"  class="col-xs-12 col-md-4"> 
+                <div class="first-card card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/chicken.jpg" alt="Card image" id="card-img-top-3"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Crunchy Vegetables Tortilla Wrap</h4> 
+ 
+                    </div> 
+ 
+                </div> 
+ 
+            </div> 
+            <div data-aos="fade-up" 
+            data-aos-duration="1500"  class="col-xs-12 col-md-4"> 
+                <div class="card-img-top-2 card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/american-burger.jpg" alt="Card image" id="card-img-top-3"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Special Burger</h4> 
+ 
+                    </div> 
+ 
+                </div> 
+ 
+            </div> 
+            <div  data-aos="fade-up" 
+            data-aos-duration="1500" class="col-xs-12 col-md-4"> 
+                <div class="card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/fries.jpg" alt="Card image" id="card-img-top-3"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">American Burger</h4> 
+ 
+                    </div> 
+ 
+                </div> 
+ 
+            </div> 
+        </div> 
+        <br> 
+        <br> 
+        <div class="row"> 
+            <div data-aos="fade-up" 
+            data-aos-duration="1500"  class="col-xs-12 col-md-4"> 
+                <div class="first-card card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/kebabs.jpg" alt="Card image" id="card-img-top-3"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Kebabs</h4> 
+ 
+ 
+                    </div> 
+ 
+                </div> 
+ 
+            </div> 
+            <div data-aos="fade-up" 
+            data-aos-duration="1500"  class="col-xs-12 col-md-4"> 
+                <div class="card-img-top-2 card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/halloween.jpg" alt="Card image" id="card-img-top-3"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Halloween Mix</h4> 
+ 
+                    </div> 
+ 
+                </div> 
+ 
+            </div> 
+            <div data-aos="fade-up" 
+            data-aos-duration="1500"  class="col-xs-12 col-md-4"> 
+                <div class="card" style="width:400px"> 
+                    <img class="card-img-top" src="/photos/noodles.jpg" alt="Card image" id="card-img-top-3"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title">Schezwan Noodles</h4> 
+ 
+                    </div> 
+ 
+                </div> 
+ 
+            </div> 
+ 
+        </div> 
+ 
+    </div> 
+
+
+<footer>
+
+    <div class="row ">
+  
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <ul>
+          <li>
+          <img class="chef" src="/photos/logo2.png">
+  
+          </li>
+          <li> <i class="fa-regular fa-location-pin"></i> 51 Francis Street, Darlinghurst
+            NSW 2010, United States</li>
+          <li><i class="fa-solid fa-phone"></i>+61 1900 654 368</li>
+          <li><i class="fa-solid fa-envelope"></i> office@educationplus.com
+          </li>
+          
+        </ul>
+  
+      </div>
+  
+  
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <ul>
+          <li class="listhead">
+            OPENING TIME
+          </li>
+          <li> Saterday- Sunday</li>
+          <li>10:00 Am - 11:00 PM</li>
+          <li> Saterday- Sunday</li>
+          <li> 10:00 Am - 11:00 PM</li>
+          <li> Saterday- Sunday</li>
+          <li> 10:00 Am - 11:00 PM</li>
+        </ul>
+  
+      </div>
+  
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <ul>
+          <li class="listhead">
+            THE MENU
+          </li>
+          <li><a>Speacial Items</a></li>
+          <li><a>Speacial Items</a></li>
+          <li><a>Speacial Items</a></li>
+          <li><a>Speacial Items</a></li>
+          <li><a>Speacial Items</a></li>
+         
+        </ul>
+  
+  
+  
+      </div>
+  
+      <div id="inputarea" class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <ul>
+        
+          <li class="inputtext">Don’t miss any updates all the astonishing offers we bring for you. </li>
+          <li><input type="email" placeholder="Eg.abc@gmail.com"></li>
+          <li> <button class="subscribe">Subscribe</button>
+          </li>
+          
+        </ul>
+  
+      </div>
+  
+      
+    </div>
+  
+  
+    <div class="row">
+      <div class="col">
+         <p>© 2017 Restaura is powered by themearth. The property of their owners.</p>
+      </div>
+  
+      <div class="col">
+        <ul class="socialmedia">
+          <li class="media"><i class="fa-brands fa-facebook"></i></li>
+          <li class="media"><i class="fa-brands fa-twitter"></i></li>
+          <li class="media"><i class="fa-brands fa-instagram"></i></li>
+          <li class="media"><i class="fa-brands fa-youtube"></i></li>
+         
+        </ul>
+  
+      </div>
+  
+    </div>
+  </footer>
+  
+ 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+ 
+ 
+</body> 
+ 
+</html>
